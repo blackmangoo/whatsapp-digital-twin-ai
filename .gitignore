@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+
+# Personal Data & Chat Exports (CRITICAL: Do not upload personal conversations)
+*.txt
+data/
+*.jsonl
+
+# Databases & Local History
+*.db
+*.sqlite3
+
+# Large Model Weights (Keep out of git history)
+*.gguf
+*.bin
+*.safetensors
+outputs/
+qwen_whatsapp_*
+
+# Environment Variables
+.env
+.env.local
+
+# OS specific
+.DS_Store
+Thumbs.db
